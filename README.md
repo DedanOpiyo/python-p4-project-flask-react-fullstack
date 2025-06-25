@@ -338,6 +338,14 @@ these in if you're feeling comfortable with Markdown.
 
 ---
 
+### Recarp:
+```console
+cd server
+flask db init
+flask db migrate -m "initial migration"
+flask db upgrade
+```
+
 ## Conclusion
 
 A lot of work goes into a full-stack application, but it all relies on concepts
